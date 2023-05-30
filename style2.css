@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  #prev-btn,
+#next-btn {
+  background-color: #009688;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+  background-color: #008080;
+}
+
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  
+  #prev-btn {
+    background-color: #2196F3;
+  }
+  
+  #next-btn {
+    background-color: #4CAF50;
+  }
+.review-item:not(.active) {
+  display: none;
+}
+  
+  
+  .review-item {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+  }
+  
+  .review-item:last-child {
+    border-bottom: none;
+  }
+  
+  .review-item h2 {
+    margin: 0 0 10px;
+  }
+  
+  .review-item p {
+    margin: 0;
+  }
+    
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #create-review-btn {
+    display: none;
+  }
+  footer ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    footer ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    footer ul li a:hover {
+    text-decoration: underline;
+    }

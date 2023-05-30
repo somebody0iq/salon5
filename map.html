@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      
+        <div class="navbar" id="myNavbar">
+          <div class="navbar__wrap">
+            <h1 class="navbar__logo">Парикмахерская Стиль</h1>
+            <div class="navbar__menu"> 
+              <a href="#Главная">Главная</a>
+              <a href="#О нас">О нас</a>
+              <a href="#Подарок">Подарок</a>
+              <a href="#Запись">Запись</a>
+              <div class="dropdown_menu2">
+                <a class="menu_btn" href="#Услуги">Услуги</a>
+                <div class="menu_content2">
+                  <a class="links_hidden" href="#Услуги">Мужская стрижка</a>
+                  <a class="links_hidden" href="#Услуги">Корекция бороды</a>
+                  <a class="links_hidden" href="#Услуги">Стрижка+борода</a>
+                  <a class="links_hidden" href="#Услуги">Стрижка под машинку</a>
+                  <a class="links_hidden" href="#Услуги">Мытье головы</a>
+                  <a class="links_hidden" href="#Услуги">Депиляция воском</a>
+                </div>
+              </div>
+              <a href="#Подарок">Карта сайта</a>
+              <div class="dropdown_menu">
+                <a class="menu_btn" href="#Товары">Товары</a>
+                <div class="menu_content">
+                  <a class="links_hidden" href="#Товары">Шампунь</a>
+                  <a class="links_hidden" href="#Товары">Помада</a>
+                  <a class="links_hidden" href="#Товары">Гель</a>
+                  <a class="links_hidden" href="#Товары">Лосьон</a>
+                  <a class="links_hidden" href="#Товары">Мыло для бритья</a>
+                  <a class="links_hidden" href="#Товары">Опасная бритва</a>
+                </div>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+          </div>
+        </div>
+    
+      </header>
+
+      <section class="contact" > 
+        <h1 class="h1_ing">Как добраться.</h1> 
+        <p class="p_inge">Выходите недалеко от метро Некрасовка. После того как выйдити с метро идете к 10 выходу,как выйдите с него идите прямо, переходите дорогу и видите нашу парикмахерску</p> 
+        <form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php"> 
+         <div class="guruweba_example_caption"></div> 
+         <div class="guruweba_example_infofield">Тема обращения</div> 
+         <select name="theme" required="required" class="in_name"> 
+          <option value="">Выберите вариант</option> 
+          <option>Вопрос по работе сервиса</option> 
+          <option>Помощь в оформлении заказа</option> 
+          <option>Сотрудничество</option> 
+          <option>Пожелания / предложения</option> 
+         </select> 
+         <div>Ваше имя</div> 
+         <input type="text" name="name" required="required" class="in_name"> 
+         <div>Ваш email</div> 
+         <input type="email" name="email" required="required" class="in_name" > 
+         <div>Сообщение</div> 
+         <textarea name="message" class="in_name"></textarea> 
+         <input type="submit" name="submit_btn" value="Отправить" class="input"> 
+        </form> 
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.0794573350295!2d37.91191455806966!3d55.704990603833075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ac9c20f59a4b5%3A0xe4af6426588d7c7b!2z0KDQvtC20LTQtdGB0YLQstC10L3RgdC60LDRjyDRg9C7LiwgMjEg0LrQvtGA0L_Rg9GBIDIsINCc0L7RgdC60LLQsCwgMTQwMDEz!5e0!3m2!1sru!2sru!4v1685453034424!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </section>
+
+      </body>
+      </html>
